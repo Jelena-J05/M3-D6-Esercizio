@@ -1,0 +1,778 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css"
+        integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>Welcome Web Students</title>
+</head>
+
+<body>
+    <!-- Fixed navbar -->
+    <nav class="navbar navbar-expand-md navbar-light fixed-top text-dark bg-white ">
+        <a class="navbar-brand" href="#">
+            <img src="./assets/logo.svg" width="30" height="30" class="d-inline-block align-top" alt="">
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse"
+            aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="#">Browse <i class="bi bi-chevron-down" style="font-size: 10px"></i> <span
+                            class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item active">
+                    <a class="nav-link" href="#">Landings <i class="bi bi-chevron-down" style="font-size: 10px"></i></a>
+                </li>
+                <li class="nav-item active">
+                    <a class="nav-link" href="#">Pages <i class="bi bi-chevron-down" style="font-size: 10px"></i></a>
+                </li>
+                <li class="nav-item active">
+                    <a class="nav-link" href="#">Accounts <i class="bi bi-chevron-down" style="font-size: 10px"></i></a>
+                </li>
+            </ul>
+            <form class="form-inline mt-2 mt-md-0">
+                <button type="button" class="btn btn-light rounded-circle position-relative">
+                    <i class="bi bi-bell"></i>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="10" fill="#7550fe" height="10"
+                        class="bi bi-circle position-absolute" viewBox="0 0 16 16">
+                        <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z" />
+                        <circle cx="8" cy="8" r="7" fill="#7550fe" />
+                    </svg>
+                </button>
+                <div class="btn-group" style="position: relative;">
+                    <button type="button" class="btn bg-transparent text-white dropdown-toggle" data-toggle="dropdown"
+                        aria-expanded="false" style="position: relative;">
+                        <div style="position: relative; display: inline-block;">
+                            <img src="/assets/avatar-1.jpg" alt="user" class="rounded-circle" width="38px"
+                                height="38px">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="10" fill="#1acb98" height="10"
+                                class="bi bi-circle position-absolute" style="bottom:6; right: 0;" viewBox="0 0 16 16">
+                                <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z" />
+                                <circle cx="8" cy="8" r="7" fill="#1acb98" />
+                            </svg>
+                        </div>
+                    </button>
+                    <div class="dropdown-menu dropdown-menu-right">
+                        <a class="dropdown-item" href="#"> <i class="bi bi-person pr-2"></i> Profile</a>
+                        <a class="dropdown-item" href="#"> <i class="bi bi-star pr-2"></i> Subscription</a>
+                        <a class="dropdown-item" href="#"><i class="bi bi-gear pr-2"></i> Settings</a>
+                        <div class="dropdown-divider"></div>
+                        <a class="dropdown-item" href="#"> <i class="bi bi-box-arrow-right pr-2"></i>Sign Out</a>
+                    </div>
+                </div>
+            </form>
+    </nav>
+    <!--JUMBOTRON-->
+    <section style="background-color:#7550fe;color:white; margin-top: 60px;">
+        <div class="container">
+            <div class="row no-gutters">
+                <div class="col-md-6 col-lg-5 d-flex py-5">
+                    <div class="my-auto">
+                        <h1 class="text-white font-weight-bold">Welcome Dev Students!</h1>
+                        <p class="text-white">
+                            Hand-picked Instructor and expertly crafted courses, designed
+                            for the modern students and entrepreneur.</p>
+                        <button class="btn bg-success text-white mb-2 mb-sm-0">Browse Courses</button>
+                        <button class="btn bg-white mb-2 mb-sm-0">Are You Instructor?</button>
+                    </div>
+
+                </div>
+                <div class="col-md-6 col-lg-6 offset-lg-1 text-center d-flex align-items-end">
+                    <img src="./assets/hero-img.png" alt="hero image" class="img-fluid">
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--SECONDA SEZIONE-->
+    <section>
+        <div class="container mt-4 mb-4">
+            <div class="row">
+                <div class="col-12 col-md-4 d-flex align-items-center">
+                    <button class="btn btn-light rounded-circle position-relative mr-2 mb-2"
+                        style="background-color: #ffeeda; width:55px;height:55px">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" fill="#c28135"
+                            class="bi bi-camera-video" viewBox="0 0 16 16">
+                            <path fill-rule="evenodd"
+                                d="M0 5a2 2 0 0 1 2-2h7.5a2 2 0 0 1 1.983 1.738l3.11-1.382A1 1 0 0 1 16 4.269v7.462a1 1 0 0 1-1.406.913l-3.111-1.382A2 2 0 0 1 9.5 13H2a2 2 0 0 1-2-2V5zm11.5 5.175 3.5 1.556V4.269l-3.5 1.556v4.35zM2 4a1 1 0 0 0-1 1v6a1 1 0 0 0 1 1h7.5a1 1 0 0 0 1-1V5a1 1 0 0 0-1-1H2z" />
+                        </svg>
+                    </button>
+                    <div>
+                        <h5>30,000 online courses</h5>
+                        <p class="text-muted"> Enjoy a variety of fresh topics</p>
+                    </div>
+                </div>
+                <div class="col-12 col-md-4 d-flex align-items-center">
+                    <button class="btn rounded-circle position-relative mr-2 mb-2"
+                        style="background-color: #ffeeda;width:55px;height:55px">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" fill="#c28135"
+                            class="bi bi-people" viewBox="0 0 16 16">
+                            <path
+                                d="M15 14s1 0 1-1-1-4-5-4-5 3-5 4 1 1 1 1h8Zm-7.978-1A.261.261 0 0 1 7 12.996c.001-.264.167-1.03.76-1.72C8.312 10.629 9.282 10 11 10c1.717 0 2.687.63 3.24 1.276.593.69.758 1.457.76 1.72l-.008.002a.274.274 0 0 1-.014.002H7.022ZM11 7a2 2 0 1 0 0-4 2 2 0 0 0 0 4Zm3-2a3 3 0 1 1-6 0 3 3 0 0 1 6 0ZM6.936 9.28a5.88 5.88 0 0 0-1.23-.247A7.35 7.35 0 0 0 5 9c-4 0-5 3-5 4 0 .667.333 1 1 1h4.216A2.238 2.238 0 0 1 5 13c0-1.01.377-2.042 1.09-2.904.243-.294.526-.569.846-.816ZM4.92 10A5.493 5.493 0 0 0 4 13H1c0-.26.164-1.03.76-1.724.545-.636 1.492-1.256 3.16-1.275ZM1.5 5.5a3 3 0 1 1 6 0 3 3 0 0 1-6 0Zm3-2a2 2 0 1 0 0 4 2 2 0 0 0 0-4Z" />
+                        </svg>
+                    </button>
+                    <div>
+                        <h5>Expert instruction</h5>
+                        <p class="text-muted"> Find the right instructor for you</p>
+                    </div>
+                </div>
+                <div class="col-12 col-md-4 d-flex align-items-center">
+                    <button class="btn btn-light rounded-circle position-relative mr-2 mb-2"
+                        style="background-color: #ffeeda;width:55px;height:55px">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" fill="#c28135"
+                            class="bi bi-clock" viewBox="0 0 16 16">
+                            <path
+                                d="M8 3.5a.5.5 0 0 0-1 0V9a.5.5 0 0 0 .252.434l3.5 2a.5.5 0 0 0 .496-.868L8 8.71V3.5z" />
+                            <path d="M8 16A8 8 0 1 0 8 0a8 8 0 0 0 0 16zm7-8A7 7 0 1 1 1 8a7 7 0 0 1 14 0z" />
+                        </svg>
+                    </button>
+                    <div>
+                        <h5> Lifetime Access</h5>
+                        <p class="text-muted"> Learn on your schedule</p>
+                    </div>
+                </div>
+    </section>
+    <!--SEZIONE PRINCIPALE-->
+    <main style="background-color:#f5f4f8">
+        <div class="container pt-5">
+            <h4> Recommended to you</h4>
+            <div class="row pt-3">
+                <div class="col">
+                    <!--CAROUSEL 1-->
+                    <div id="carousel1" class="carousel slide" data-ride="carousel">
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <div class="card-deck">
+                                    <!--PRIMA CARD-->
+                                    <div class="card">
+                                        <img src="/assets/course-graphql.jpg" class="card-img-top" alt="graphQL">
+                                        <div class="card-body">
+                                            <h6 class="card-title">GraphQL: introduction to graphQL for beginners</h6>
+                                            <p class="card-text text-muted">
+                                                <i class="bi bi-clock"></i>
+                                                <span>2h 40 min</span>
+                                                <svg width="16" height="16" viewBox="0 0 16 16" fill="none"
+                                                    xmlns="http://www.w3.org/2000/svg">
+                                                    <rect x="3" y="8" width="2" height="6" rx="1" fill="#754FFE"
+                                                        style="color: #754ffe;"></rect>
+                                                    <rect x="7" y="5" width="2" height="9" rx="1" fill="#754FFE"></rect>
+                                                    <rect x="11" y="2" width="2" height="12" rx="1" fill="#754FFE">
+                                                    </rect>
+                                                </svg>
+                                                <span> Advance</span>
+                                            <div>
+                                                <i class="bi bi-star-fill yellow-icon-color"></i>
+                                                <i class="bi bi-star-fill yellow-icon-color"></i>
+                                                <i class="bi bi-star-half yellow-icon-color"></i>
+                                                <i class="bi bi-star yellow-icon-color"></i>
+                                                <i class="bi bi-star yellow-icon-color"></i>
+                                                <span class="yellow-icon-color"> 2.5</span>
+                                                <span class="text-muted"> (1,500)</span>
+                                            </div>
+                                            </p>
+                                            <span class="font-weight-bold"> $500</span>
+                                            <del class="text-muted"> $600</del>
+                                        </div>
+                                        <div class="card-footer bg-transparent">
+                                            <img src="/assets/avatar-5.jpg" alt="user" class="rounded-circle"
+                                                width="38px" height="38px">
+                                            <small class="text-muted"> Brooklyn Simmons</small>
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18"
+                                                viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                                                stroke-linecap="round" stroke-linejoin="round" style="color: grey"
+                                                class="feather feather-bookmark opacity-50 ml-auto position-relative float-right mt-2">
+                                                <path d="M19 21l-7-5-7 5V5a2 2 0 0 1 2-2h10a2 2 0 0 1 2 2z"></path>
+                                            </svg>
+                                        </div>
+                                    </div>
+                                    <!--SECONDA CARD-->
+                                    <div class="card">
+                                        <img src="/assets/course-javascript.jpg" class="card-img-top" alt="JavaScript">
+                                        <div class="card-body">
+                                            <h6 class="card-title">A complete beginner's Guide to JavaScript</h6>
+                                            <p class="card-text text-muted">
+                                                <i class="bi bi-clock"></i>
+                                                <span>4h 10 min</span>
+                                                <svg width="16" height="16" viewBox="0 0 16 16" fill="none"
+                                                    xmlns="http://www.w3.org/2000/svg">
+                                                    <rect x="3" y="8" width="2" height="6" rx="1" fill="#754FFE"
+                                                        style="color: #754ffe"></rect>
+                                                    <rect x="7" y="5" width="2" height="9" rx="1" fill="#754FFE"></rect>
+                                                    <rect x="11" y="2" width="2" height="12" rx="1" fill="#754FFE">
+                                                    </rect>
+                                                </svg>
+                                                <span> Advance</span>
+                                            <div>
+                                                <i class="bi bi-star-fill yellow-icon-color"></i>
+                                                <i class="bi bi-star-fill yellow-icon-color"></i>
+                                                <i class="bi bi-star-fill yellow-icon-color"></i>
+                                                <i class="bi bi-star-half yellow-icon-color"></i>
+                                                <i class="bi bi-star yellow-icon-color"></i>
+                                                <span class="yellow-icon-color"> 3.5</span>
+                                                <span class="text-muted"> (7,500)</span>
+                                            </div>
+                                            </p>
+                                            <span class="font-weight-bold"> $700</span>
+                                            <del class="text-muted"> $850</del>
+
+                                        </div>
+                                        <div class="card-footer bg-transparent">
+                                            <img src="/assets/avatar-1.jpg" alt="user" class="rounded-circle"
+                                                width="38px" height="38px">
+                                            <small class="text-muted"> Jenny Wilson </small>
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18"
+                                                viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                                                stroke-linecap="round" stroke-linejoin="round" style="color: grey"
+                                                class="feather feather-bookmark opacity-50 ml-auto position-relative float-right mt-2">
+                                                <path d="M19 21l-7-5-7 5V5a2 2 0 0 1 2-2h10a2 2 0 0 1 2 2z"></path>
+                                            </svg>
+                                        </div>
+                                    </div>
+                                    <!--TERZA CARD-->
+                                    <div class="card">
+                                        <img src="/assets/course-node.jpg" class="card-img-top" alt="node">
+                                        <div class="card-body">
+                                            <h6 class="card-title"> Beginning Node.js, Express & MongoDB Development
+                                            </h6>
+                                            <p class="card-text text-muted">
+                                                <i class="bi bi-clock"></i>
+                                                <span>2h 00 min</span>
+                                                <svg class="me-1 mt-n1" width="16" height="16" viewBox="0 0 16 16"
+                                                    fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                    <rect x="3" y="8" width="2" height="6" rx="1" fill="#754FFE"></rect>
+                                                    <rect x="7" y="5" width="2" height="9" rx="1" fill="#754FFE"></rect>
+                                                    <rect x="11" y="2" width="2" height="12" rx="1" fill="#DBD8E9">
+                                                    </rect>
+                                                </svg>
+                                                <span> Intermediate</span>
+                                            <div>
+                                                <i class="bi bi-star-fill yellow-icon-color"></i>
+                                                <i class="bi bi-star-fill yellow-icon-color"></i>
+                                                <i class="bi bi-star-fill yellow-icon-color"></i>
+                                                <i class="bi bi-star-fill yellow-icon-color"></i>
+                                                <i class="bi bi-star yellow-icon-color"></i>
+                                                <span class="yellow-icon-color"> 4.0</span>
+                                                <span class="text-muted"> (15,500)</span>
+                                            </div>
+                                            </p>
+                                            <span class="font-weight-bold"> $800</span>
+                                            <del class="text-muted"> $950</del>
+                                        </div>
+                                        <div class="card-footer bg-transparent">
+                                            <img src="/assets/avatar-3.jpg" alt="user" class="rounded-circle"
+                                                width="38px" height="38px">
+                                            <small class="text-muted"> Sina Ray </small>
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18"
+                                                viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                                                stroke-linecap="round" stroke-linejoin="round" style="color: grey"
+                                                class="feather feather-bookmark opacity-50 ml-auto position-relative float-right mt-2">
+                                                <path d="M19 21l-7-5-7 5V5a2 2 0 0 1 2-2h10a2 2 0 0 1 2 2z"></path>
+                                            </svg>
+                                        </div>
+                                    </div>
+                                    <!--QUARTA CARD-->
+                                    <div class="card">
+                                        <img src="/assets/course-laravel.jpg" class="card-img-top" alt="laravel">
+                                        <div class="card-body">
+                                            <h6 class="card-title">Laravel: The Ultimate Beginner's Guide to Learn</h6>
+                                            <p class="card-text text-muted">
+                                                <i class="bi bi-clock"></i>
+                                                <span>1h 00 min</span>
+                                                <svg class="me-1 mt-n1" width="16" height="16" viewBox="0 0 16 16"
+                                                    fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                    <rect x="3" y="8" width="2" height="6" rx="1" fill="#754FFE"></rect>
+                                                    <rect x="7" y="5" width="2" height="9" rx="1" fill="#DBD8E9"></rect>
+                                                    <rect x="11" y="2" width="2" height="12" rx="1" fill="#DBD8E9">
+                                                    </rect>
+                                                </svg>
+                                                <span> Beginner</span>
+                                            <div>
+                                                <i class="bi bi-star-fill yellow-icon-color"></i>
+                                                <i class="bi bi-star-fill yellow-icon-color"></i>
+                                                <i class="bi bi-star-fill yellow-icon-color"></i>
+                                                <i class="bi bi-star-fill yellow-icon-color"></i>
+                                                <i class="bi bi-star-half yellow-icon-color"></i>
+                                                <span class="yellow-icon-color"> 4.5</span>
+                                                <span class="text-muted"> (2,500)</span>
+                                            </div>
+                                            </p>
+                                            <span class="font-weight-bold"> $170</span>
+                                            <del class="text-muted"> $220</del>
+
+                                        </div>
+                                        <div class="card-footer bg-transparent">
+                                            <img src="/assets/avatar-7.jpg" alt="user" class="rounded-circle"
+                                                width="38px" height="38px">
+                                            <small class="text-muted"> Sobo Rikhan</small>
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18"
+                                                viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                                                stroke-linecap="round" stroke-linejoin="round" style="color: grey"
+                                                class="feather feather-bookmark opacity-50 ml-auto position-relative float-right mt-2">
+                                                <path d="M19 21l-7-5-7 5V5a2 2 0 0 1 2-2h10a2 2 0 0 1 2 2z"></path>
+                                            </svg>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <a class="carousel-control-prev custom-carousel-control-prev" href="#carousel1" role="button"
+                            data-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="sr-only">Previous</span>
+                        </a>
+                        <a class="carousel-control-next custom-carousel-control-next" href="#carousel1" role="button"
+                            data-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="sr-only rounded-circle">Next</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container pt-5">
+            <h4> Most Popular</h4>
+            <div class="row pt-3">
+                <div class="col">
+                    <!--CAROUSEL 2-->
+                    <div id="carousel2" class="carousel slide" data-ride="carousel">
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <div class="card-deck">
+                                    <!--PRIMA CARD-->
+                                    <div class="card">
+                                        <img src="/assets/course-html.jpg" class="card-img-top" alt="html">
+                                        <div class="card-body">
+                                            <h6 class="card-title">HTML Full Course - Build a Website Tutorial
+                                            </h6>
+                                            <p class="card-text text-muted">
+                                                <i class="bi bi-clock"></i>
+                                                <span>3h 16 min</span>
+                                                <svg width="16" height="16" viewBox="0 0 16 16" fill="none"
+                                                    xmlns="http://www.w3.org/2000/svg">
+                                                    <rect x="3" y="8" width="2" height="6" rx="1" fill="#754FFE"
+                                                        style="color: #754ffe;"></rect>
+                                                    <rect x="7" y="5" width="2" height="9" rx="1" fill="#754FFE"></rect>
+                                                    <rect x="11" y="2" width="2" height="12" rx="1" fill="#754FFE">
+                                                    </rect>
+                                                </svg>
+                                                <span> Advance</span>
+                                            <div>
+                                                <i class="bi bi-star-fill yellow-icon-color"></i>
+                                                <i class="bi bi-star-fill yellow-icon-color"></i>
+                                                <i class="bi bi-star-half yellow-icon-color"></i>
+                                                <i class="bi bi-star yellow-icon-color"></i>
+                                                <i class="bi bi-star yellow-icon-color"></i>
+                                                <span class="yellow-icon-color"> 2.5</span>
+                                                <span class="text-muted"> (1,600)</span>
+                                            </div>
+                                            </p>
+                                            <span class="font-weight-bold"> $550</span>
+                                            <del class="text-muted"> $700</del>
+                                        </div>
+                                        <div class="card-footer bg-transparent">
+                                            <img src="/assets/avatar-4.jpg" alt="user" class="rounded-circle"
+                                                width="38px" height="38px">
+                                            <small class="text-muted"> Miston Wilson</small>
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18"
+                                                viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                                                stroke-linecap="round" stroke-linejoin="round" style="color: grey"
+                                                class="feather feather-bookmark opacity-50 ml-auto position-relative float-right mt-2">
+                                                <path d="M19 21l-7-5-7 5V5a2 2 0 0 1 2-2h10a2 2 0 0 1 2 2z"></path>
+                                            </svg>
+                                        </div>
+                                    </div>
+                                    <!--SECONDA CARD-->
+                                    <div class="card">
+                                        <img src="/assets/course-javascript.jpg" class="card-img-top" alt="JavaScript">
+                                        <div class="card-body">
+                                            <h6 class="card-title">A complete beginner's Guide to JavaScript</h6>
+                                            <p class="card-text text-muted">
+                                                <i class="bi bi-clock"></i>
+                                                <span>4h 10 min</span>
+                                                <svg width="16" height="16" viewBox="0 0 16 16" fill="none"
+                                                    xmlns="http://www.w3.org/2000/svg">
+                                                    <rect x="3" y="8" width="2" height="6" rx="1" fill="#754FFE" style="
+                                        color: #754ffe;"></rect>
+                                                    <rect x="7" y="5" width="2" height="9" rx="1" fill="#754FFE"></rect>
+                                                    <rect x="11" y="2" width="2" height="12" rx="1" fill="#754FFE">
+                                                    </rect>
+                                                </svg>
+                                                <span> Advance</span>
+                                            <div>
+                                                <i class="bi bi-star-fill yellow-icon-color"></i>
+                                                <i class="bi bi-star-fill yellow-icon-color"></i>
+                                                <i class="bi bi-star-fill yellow-icon-color"></i>
+                                                <i class="bi bi-star-half yellow-icon-color"></i>
+                                                <i class="bi bi-star yellow-icon-color"></i>
+                                                <span class="yellow-icon-color"> 3.5</span>
+                                                <span class="text-muted"> (7,500)</span>
+                                            </div>
+                                            </p>
+                                            <span class="font-weight-bold"> $700</span>
+                                            <del class="text-muted"> $850</del>
+
+                                        </div>
+                                        <div class="card-footer bg-transparent">
+                                            <img src="/assets/avatar-1.jpg" alt="user" class="rounded-circle"
+                                                width="38px" height="38px">
+                                            <small class="text-muted"> Jenny Wilson </small>
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18"
+                                                viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                                                stroke-linecap="round" stroke-linejoin="round" style="color: grey"
+                                                class="feather feather-bookmark opacity-50 ml-auto position-relative float-right mt-2">
+                                                <path d="M19 21l-7-5-7 5V5a2 2 0 0 1 2-2h10a2 2 0 0 1 2 2z"></path>
+                                            </svg>
+                                        </div>
+                                    </div>
+                                    <!--TERZA CARD-->
+                                    <div class="card">
+                                        <img src="/assets/course-node.jpg" class="card-img-top" alt="node">
+                                        <div class="card-body">
+                                            <h6 class="card-title"> Beginning Node.js, Express & MongoDB Development
+                                            </h6>
+                                            <p class="card-text text-muted">
+                                                <i class="bi bi-clock"></i>
+                                                <span>2h 00 min</span>
+                                                <svg class="me-1 mt-n1" width="16" height="16" viewBox="0 0 16 16"
+                                                    fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                    <rect x="3" y="8" width="2" height="6" rx="1" fill="#754FFE"></rect>
+                                                    <rect x="7" y="5" width="2" height="9" rx="1" fill="#754FFE"></rect>
+                                                    <rect x="11" y="2" width="2" height="12" rx="1" fill="#DBD8E9">
+                                                    </rect>
+                                                </svg><span>
+                                                    Intermediate</span>
+                                            <div>
+                                                <i class="bi bi-star-fill yellow-icon-color"></i>
+                                                <i class="bi bi-star-fill yellow-icon-color"></i>
+                                                <i class="bi bi-star-fill yellow-icon-color"></i>
+                                                <i class="bi bi-star-fill yellow-icon-color"></i>
+                                                <i class="bi bi-star yellow-icon-color"></i>
+                                                <span class="yellow-icon-color"> 4.0</span>
+                                                <span class="text-muted"> (15,500)</span>
+                                            </div>
+                                            </p>
+                                            <span class="font-weight-bold"> $800</span>
+                                            <del class="text-muted"> $950</del>
+                                        </div>
+                                        <div class="card-footer bg-transparent">
+                                            <img src="/assets/avatar-3.jpg" alt="user" class="rounded-circle"
+                                                width="38px" height="38px">
+                                            <small class="text-muted"> Sina Ray </small>
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18"
+                                                viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                                                stroke-linecap="round" stroke-linejoin="round" style="color: grey"
+                                                class="feather feather-bookmark opacity-50 ml-auto position-relative float-right mt-2">
+                                                <path d="M19 21l-7-5-7 5V5a2 2 0 0 1 2-2h10a2 2 0 0 1 2 2z"></path>
+                                            </svg>
+                                        </div>
+                                    </div>
+                                    <!--QUARTA CARD-->
+                                    <div class="card">
+                                        <img src="/assets/course-react.jpg" class="card-img-top" alt="react">
+                                        <div class="card-body">
+                                            <h6 class="card-title">How to easily create a website with React
+                                            </h6>
+                                            <p class="card-text text-muted">
+                                                <i class="bi bi-clock"></i>
+                                                <span>3h 55 min</span>
+                                                <svg width="16" height="16" viewBox="0 0 16 16" fill="none"
+                                                    xmlns="http://www.w3.org/2000/svg">
+                                                    <rect x="3" y="8" width="2" height="6" rx="1" fill="#754FFE" style="
+                                                color: #754ffe;
+                                            "></rect>
+                                                    <rect x="7" y="5" width="2" height="9" rx="1" fill="#754FFE"></rect>
+                                                    <rect x="11" y="2" width="2" height="12" rx="1" fill="#754FFE">
+                                                    </rect>
+                                                </svg>
+                                                <span> Advance</span>
+                                            <div>
+                                                <i class="bi bi-star-fill yellow-icon-color"></i>
+                                                <i class="bi bi-star-fill yellow-icon-color"></i>
+                                                <i class="bi bi-star-fill yellow-icon-color"></i>
+                                                <i class="bi bi-star-fill yellow-icon-color"></i>
+                                                <i class="bi bi-star-half yellow-icon-color"></i>
+                                                <span class="yellow-icon-color"> 4.5</span>
+                                                <span class="text-muted"> (1,500)</span>
+                                            </div>
+                                            </p>
+                                            <span class="font-weight-bold"> $600</span>
+                                            <del class="text-muted"> $750</del>
+                                        </div>
+                                        <div class="card-footer bg-transparent">
+                                            <img src="/assets/avatar-2.jpg" alt="user" class="rounded-circle"
+                                                width="38px" height="38px">
+                                            <small class="text-muted"> April Noms</small>
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18"
+                                                viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                                                stroke-linecap="round" stroke-linejoin="round" style="color: grey"
+                                                class="feather feather-bookmark opacity-50 ml-auto position-relative float-right mt-2">
+                                                <path d="M19 21l-7-5-7 5V5a2 2 0 0 1 2-2h10a2 2 0 0 1 2 2z"></path>
+                                            </svg>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <a class="carousel-control-prev custom-carousel-control-prev" href="#carousel2" role="button"
+                            data-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="sr-only">Previous</span>
+                        </a>
+                        <a class="carousel-control-next custom-carousel-control-next" href="#carousel2" role="button"
+                            data-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="sr-only">Next</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container pt-5">
+            <h4> Trending</h4>
+            <div class="row pt-3">
+                <div class="col">
+                    <!--CAROUSEL 3-->
+                    <div id="carousel3" class="carousel slide" data-ride="carousel">
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <div class="card-deck">
+                                    <!--PRIMA CARD-->
+                                    <div class="card">
+                                        <img src="/assets/course-gatsby.jpg" class="card-img-top" alt="gatsby">
+                                        <div class="card-body">
+                                            <h6 class="card-title">Revolutionize how you build the web
+                                            </h6>
+                                            <p class="card-text text-muted">
+                                                <i class="bi bi-clock"></i>
+                                                <span>1h 46 min</span>
+                                                <svg class="me-1 mt-n1" width="16" height="16" viewBox="0 0 16 16"
+                                                    fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                    <rect x="3" y="8" width="2" height="6" rx="1" fill="#754FFE"></rect>
+                                                    <rect x="7" y="5" width="2" height="9" rx="1" fill="#754FFE"></rect>
+                                                    <rect x="11" y="2" width="2" height="12" rx="1" fill="#DBD8E9">
+                                                    </rect>
+                                                </svg>
+                                                <span> Intermediate</span>
+                                            <div>
+                                                <i class="bi bi-star-fill yellow-icon-color"></i>
+                                                <i class="bi bi-star-fill yellow-icon-color"></i>
+                                                <i class="bi bi-star yellow-icon-color"></i>
+                                                <i class="bi bi-star yellow-icon-color"></i>
+                                                <i class="bi bi-star yellow-icon-color"></i>
+                                                <span class="yellow-icon-color"> 2.0</span>
+                                                <span class="text-muted"> (16,500)</span>
+                                            </div>
+                                            </p>
+                                            <span class="font-weight-bold"> $800</span>
+                                            <del class="text-muted"> $850</del>
+                                        </div>
+                                        <div class="card-footer bg-transparent">
+                                            <img src="/assets/avatar-6.jpg" alt="user" class="rounded-circle"
+                                                width="38px" height="38px">
+                                            <small class="text-muted"> Jenny Wilson</small>
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18"
+                                                viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                                                stroke-linecap="round" stroke-linejoin="round" style="color: grey"
+                                                class="feather feather-bookmark opacity-50 ml-auto position-relative float-right mt-2">
+                                                <path d="M19 21l-7-5-7 5V5a2 2 0 0 1 2-2h10a2 2 0 0 1 2 2z"></path>
+                                            </svg>
+
+                                        </div>
+                                    </div>
+                                    <!--SECONDA CARD-->
+                                    <div class="card">
+                                        <img src="/assets/course-html.jpg" class="card-img-top" alt="html">
+                                        <div class="card-body">
+                                            <h6 class="card-title">HTML Full Course - Build a Website Tutorial
+                                            </h6>
+                                            <p class="card-text text-muted">
+                                                <i class="bi bi-clock"></i>
+                                                <span>3h 16 min</span>
+                                                <svg width="16" height="16" viewBox="0 0 16 16" fill="none"
+                                                    xmlns="http://www.w3.org/2000/svg">
+                                                    <rect x="3" y="8" width="2" height="6" rx="1" fill="#754FFE" style="
+                                                color: #754ffe;
+                                            "></rect>
+                                                    <rect x="7" y="5" width="2" height="9" rx="1" fill="#754FFE"></rect>
+                                                    <rect x="11" y="2" width="2" height="12" rx="1" fill="#754FFE">
+                                                    </rect>
+                                                </svg>
+                                                <span> Advance</span>
+                                            <div>
+                                                <i class="bi bi-star-fill yellow-icon-color"></i>
+                                                <i class="bi bi-star-fill yellow-icon-color"></i>
+                                                <i class="bi bi-star-half yellow-icon-color"></i>
+                                                <i class="bi bi-star yellow-icon-color"></i>
+                                                <i class="bi bi-star yellow-icon-color"></i>
+                                                <span class="yellow-icon-color"> 2.5</span>
+                                                <span class="text-muted"> (1,600)</span>
+                                            </div>
+                                            </p>
+                                            <span class="font-weight-bold"> $550</span>
+                                            <del class="text-muted"> $700</del>
+                                        </div>
+                                        <div class="card-footer bg-transparent">
+                                            <img src="/assets/avatar-4.jpg" alt="user" class="rounded-circle"
+                                                width="38px" height="38px">
+                                            <small class="text-muted"> Miston Wilson</small>
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18"
+                                                viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                                                stroke-linecap="round" stroke-linejoin="round" style="color: grey"
+                                                class="feather feather-bookmark opacity-50 ml-auto position-relative float-right mt-2">
+                                                <path d="M19 21l-7-5-7 5V5a2 2 0 0 1 2-2h10a2 2 0 0 1 2 2z"></path>
+                                            </svg>
+                                        </div>
+                                    </div>
+                                    <!--TERZA CARD-->
+                                    <div class="card">
+                                        <img src="/assets/course-node.jpg" class="card-img-top" alt="node">
+                                        <div class="card-body">
+                                            <h6 class="card-title"> Beginning Node.js, Express & MongoDB Development
+                                            </h6>
+                                            <p class="card-text text-muted">
+                                                <i class="bi bi-clock"></i>
+                                                <span>2h 00 min</span>
+                                                <svg class="me-1 mt-n1" width="16" height="16" viewBox="0 0 16 16"
+                                                    fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                    <rect x="3" y="8" width="2" height="6" rx="1" fill="#754FFE"></rect>
+                                                    <rect x="7" y="5" width="2" height="9" rx="1" fill="#754FFE"></rect>
+                                                    <rect x="11" y="2" width="2" height="12" rx="1" fill="#DBD8E9">
+                                                    </rect>
+                                                </svg> <span>
+                                                    Intermediate</span>
+                                            <div>
+                                                <i class="bi bi-star-fill yellow-icon-color"></i>
+                                                <i class="bi bi-star-fill yellow-icon-color"></i>
+                                                <i class="bi bi-star-fill yellow-icon-color"></i>
+                                                <i class="bi bi-star-fill yellow-icon-color"></i>
+                                                <i class="bi bi-star yellow-icon-color"></i>
+                                                <span class="yellow-icon-color"> 4.0</span>
+                                                <span class="text-muted"> (15,500)</span>
+                                            </div>
+                                            </p>
+                                            <span class="font-weight-bold"> $800</span>
+                                            <del class="text-muted"> $950</del>
+                                        </div>
+                                        <div class="card-footer bg-transparent">
+                                            <img src="/assets/avatar-3.jpg" alt="user" class="rounded-circle"
+                                                width="38px" height="38px">
+                                            <small class="text-muted"> Sina Ray </small>
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18"
+                                                viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                                                stroke-linecap="round" stroke-linejoin="round" style="color: grey"
+                                                class="feather feather-bookmark opacity-50 ml-auto position-relative float-right mt-2">
+                                                <path d="M19 21l-7-5-7 5V5a2 2 0 0 1 2-2h10a2 2 0 0 1 2 2z"></path>
+                                            </svg>
+                                        </div>
+                                    </div>
+                                    <!--QUARTA CARD-->
+                                    <div class="card">
+                                        <img src="/assets/course-laravel.jpg" class="card-img-top" alt="laravel">
+                                        <div class="card-body">
+                                            <h6 class="card-title">Laravel: The Ultimate Beginner's Guide to Learn
+                                            </h6>
+                                            <p class="card-text text-muted">
+                                                <i class="bi bi-clock"></i>
+                                                <span>1h 00 min</span>
+                                                <svg class="me-1 mt-n1" width="16" height="16" viewBox="0 0 16 16"
+                                                    fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                    <rect x="3" y="8" width="2" height="6" rx="1" fill="#754FFE"></rect>
+                                                    <rect x="7" y="5" width="2" height="9" rx="1" fill="#DBD8E9"></rect>
+                                                    <rect x="11" y="2" width="2" height="12" rx="1" fill="#DBD8E9">
+                                                    </rect>
+                                                </svg>
+                                                <span> Beginner</span>
+                                            <div>
+                                                <i class="bi bi-star-fill yellow-icon-color"></i>
+                                                <i class="bi bi-star-fill yellow-icon-color"></i>
+                                                <i class="bi bi-star-fill yellow-icon-color"></i>
+                                                <i class="bi bi-star-fill yellow-icon-color"></i>
+                                                <i class="bi bi-star-half yellow-icon-color"></i>
+                                                <span class="yellow-icon-color"> 4.5</span>
+                                                <span class="text-muted"> (2,500)</span>
+                                            </div>
+                                            </p>
+                                            <span class="font-weight-bold"> $170</span>
+                                            <del class="text-muted"> $220</del>
+
+                                        </div>
+                                        <div class="card-footer bg-transparent">
+                                            <img src="/assets/avatar-7.jpg" alt="user" class="rounded-circle"
+                                                width="38px" height="38px">
+                                            <small class="text-muted"> Sobo Rikhan</small>
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18"
+                                                viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                                                stroke-linecap="round" stroke-linejoin="round" style="color: grey"
+                                                class="feather feather-bookmark opacity-50 ml-auto position-relative float-right mt-2">
+                                                <path d="M19 21l-7-5-7 5V5a2 2 0 0 1 2-2h10a2 2 0 0 1 2 2z"></path>
+                                            </svg>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <a class="carousel-control-prev custom-carousel-control-prev" href="#carousel3" role="button"
+                            data-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="sr-only">Previous</span>
+                        </a>
+                        <a class="carousel-control-next custom-carousel-control-next" href="#carousel3" role="button"
+                            data-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="sr-only">Next</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--FOOTER-->
+        <footer
+            class="container d-flex flex-column flex-md-row align-items-center py-3 mt-5 text-secondary border-top-secondary">
+            <div class="row w-100 no-gutters">
+                <div class="col-md-6 mb-3 mb-md-0">
+                    <p>&copy; 2022 Geeks. All Rights Reserved.</p>
+                </div>
+                <div class="col-md-6">
+                    <nav>
+                        <ul
+                            class="footer-list d-flex flex-column flex-md-row justify-content-md-end list-unstyled pl-0">
+                            <li class="mb-2 mb-md-0 mr-md-3">
+                                Privacy
+                            </li>
+                            <li class="mb-2 mb-md-0 mr-md-3">
+                                Terms
+                            </li>
+                            <li class="mb-2 mb-md-0 mr-md-3">
+                                Feedback
+                            </li>
+                            <li class="mb-2 mb-md-0">
+                                Support
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+        </footer>
+    </main>
+
+    <!--  jQuery and Bootstrap Bundle (includes Popper) -->
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
